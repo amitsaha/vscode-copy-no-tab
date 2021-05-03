@@ -2,13 +2,13 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-	const editor = vscode.window.activeTextEditor;
+	const editor = vscode.window.activeTextEditor!;
 	console.log('Congratulations, your extension "copy-no-tab" is now active!');
 
 	let disposable = vscode.commands.registerCommand('copy-no-tab.copyNoTab', () => {
 		var text = editor.document.getText(editor.selection);
-		const tabSize = vscode.window.activeTextEditor.options.tabSize;
-		text = text.replace(/\t/g, ' '.repeat(parseInt(tabSize, 10)));
+		const tabSize = editor.options.tabSize as number;
+		text = text.replace(/\t/g, ' '.repeat(tabSize));
 		// The try/catch code below is copied from somewhere
 		try {
 			vscode.env.clipboard.writeText(text);
