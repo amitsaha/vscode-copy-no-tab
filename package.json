@@ -7,9 +7,9 @@
     "type": "git",
     "url": "https://github.com/amitsaha/vscode-copy-no-tab.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.55.0"       
+    "vscode": "^1.55.0"
   },
   "categories": [
     "Other"
@@ -22,7 +22,6 @@
     "menus": {
       "editor/context": [
         {
-          
           "command": "copy-no-tab.copyNoTab",
           "group": "9_cutcopypaste"
         }
