@@ -5,7 +5,7 @@
   "description": "Copy without tabs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amitsaha/copy-no-tab.git"
+    "url": "https://github.com/amitsaha/vscode-copy-no-tab.git"
   },
   "version": "0.0.1",
   "engines": {
