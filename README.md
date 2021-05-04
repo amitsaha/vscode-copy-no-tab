@@ -1,11 +1,15 @@
 # Copy selected code converting tabs to spaces
 
-This extension allows you to copy selected text to your clipboard,
-replacing the tabs by spaces. It obtains the size of a tab from
-your editor's configuration.
+Extension name: [amitsaha.copy-no-tab](https://marketplace.visualstudio.com/items?itemName=amitsaha.copy-no-tab).
+
+This Visual Studio Code extension allows you to copy selected text to 
+your clipboard, replacing the tabs by spaces. It obtains the size of a
+tab from your editor's configuration.
 
 To use, select text and right click, you will see "Copy No Tabs!"
 along with the other Cut, Copy and Paste options.
+
+![Screenshot](./screenshot.png)
 
 ### Credits
 
