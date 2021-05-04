@@ -3,6 +3,10 @@
   "publisher": "amitsaha",
   "displayName": "copy-no-tab",
   "description": "Copy without tabs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitsaha/copy-no-tab.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.55.0"       
